@@ -73,7 +73,7 @@
       "TopLevelTOC": "docs-ref-autogen/toc.yml",
       "OutputFolder": "docs-ref-autogen/",
       "ContainerPageMetadata": {
-        "langs": ["typeScript"]
+        "langs": ["js"]
       },
       "ContainerPageYamlMime": "YamlMime:UniversalReference"
     }
