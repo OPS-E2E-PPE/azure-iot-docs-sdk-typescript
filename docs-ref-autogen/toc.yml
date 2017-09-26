@@ -44,7 +44,6 @@
           name: MqttWs
 - name: Service
   uid: azure-iot-service
-  landingPageType: Root
   items:
     - uid: azure-iothub
       name: azure-iothub
