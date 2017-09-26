@@ -46,6 +46,7 @@
   items:
     - uid: azure-iothub
       name: azure-iothub
+      landingPageType: Service
       items:
         - uid: azure-iothub.Amqp
           name: Amqp
