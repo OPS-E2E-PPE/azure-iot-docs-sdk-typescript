@@ -67,5 +67,15 @@
       "target_framework": "net45",
       "version": "latest"
     }
-  ]
+  ],
+  "JoinTOCPlugin": [
+    {
+      "TopLevelTOC": "docs-ref-autogen/toc.yml",
+      "OutputFolder": "docs-ref-autogen/",
+      "ContainerPageMetadata": {
+        "langs": ["typeScript"]
+      },
+      "ContainerPageYamlMime": "YamlMime:UniversalReference"
+    }
+  ],
 }
