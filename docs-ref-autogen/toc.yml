@@ -43,11 +43,10 @@
         - uid: azure-iot-device-mqtt.MqttWs
           name: MqttWs
 - name: Service
-  uid: azure-iot-service
+  uid: azure-iot-sdk-service
+  landingPageType: Service
   items:
-    - uid: azure-iothub
-      name: azure-iothub
-      landingPageType: Service
+    - name: azure-iothub
       items:
         - uid: azure-iothub.Amqp
           name: Amqp
