@@ -1,0 +1,94 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-atlas-javscript-sdk.AzureBaseLayer
+    name: AzureBaseLayer
+    fullName: AzureBaseLayer
+    children:
+      - azure-atlas-javscript-sdk.AzureBaseLayer.constructor
+      - azure-atlas-javscript-sdk.AzureBaseLayer.clear
+      - azure-atlas-javscript-sdk.AzureBaseLayer.layers
+      - azure-atlas-javscript-sdk.AzureBaseLayer.name
+      - azure-atlas-javscript-sdk.AzureBaseLayer.push
+      - azure-atlas-javscript-sdk.AzureBaseLayer.sources
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: azure-atlas-javscript-sdk
+  - uid: azure-atlas-javscript-sdk.AzureBaseLayer.constructor
+    name: AzureBaseLayer
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new AzureBaseLayer(options: function)'
+      parameters:
+        - id: options
+          type:
+            - function
+          description: ''
+  - uid: azure-atlas-javscript-sdk.AzureBaseLayer.clear
+    name: clear
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function clear()
+      parameters: []
+  - uid: azure-atlas-javscript-sdk.AzureBaseLayer.layers
+    name: layers
+    fullName: layers
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: any layers
+      return:
+        type:
+          - any
+  - uid: azure-atlas-javscript-sdk.AzureBaseLayer.name
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: function name
+      return:
+        type:
+          - function
+  - uid: azure-atlas-javscript-sdk.AzureBaseLayer.push
+    name: push
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function push(data: any)'
+      parameters:
+        - id: data
+          type:
+            - any
+          description: ''
+  - uid: azure-atlas-javscript-sdk.AzureBaseLayer.sources
+    name: sources
+    fullName: sources
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: any sources
+      return:
+        type:
+          - any

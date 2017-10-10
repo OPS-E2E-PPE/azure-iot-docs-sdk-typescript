@@ -1,0 +1,89 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-atlas-javscript-sdk.MultiPoint
+    name: MultiPoint
+    fullName: MultiPoint
+    children:
+      - azure-atlas-javscript-sdk.MultiPoint.bbox
+      - azure-atlas-javscript-sdk.MultiPoint.coordinates
+      - azure-atlas-javscript-sdk.MultiPoint.constructor
+      - azure-atlas-javscript-sdk.MultiPoint.type
+      - azure-atlas-javscript-sdk.MultiPoint.TYPE
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      The [[https://tools.ietf.org/rfc/rfc7946.txt RFC 7946]] definition of a
+      GeoJSON multi-point.
+    package: azure-atlas-javscript-sdk
+  - uid: azure-atlas-javscript-sdk.MultiPoint.bbox
+    name: bbox
+    fullName: bbox
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: BoundingBox bbox
+      return:
+        type:
+          - '@azure-atlas-javscript-sdk.BoundingBox'
+  - uid: azure-atlas-javscript-sdk.MultiPoint.coordinates
+    name: coordinates
+    fullName: coordinates
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'Position[] coordinates'
+      return:
+        type:
+          - '@azure-atlas-javscript-sdk.Position[]'
+  - uid: azure-atlas-javscript-sdk.MultiPoint.constructor
+    name: MultiPoint
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new MultiPoint(coordinates: Position[], bbox?: BoundingBox)'
+      parameters:
+        - id: coordinates
+          type:
+            - '@azure-atlas-javscript-sdk.Position[]'
+          description: ''
+        - id: bbox
+          type:
+            - '@azure-atlas-javscript-sdk.BoundingBox'
+          description: ''
+          optional: true
+  - uid: azure-atlas-javscript-sdk.MultiPoint.type
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: function type
+      return:
+        type:
+          - function
+  - uid: azure-atlas-javscript-sdk.MultiPoint.TYPE
+    name: TYPE
+    fullName: TYPE
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static function TYPE
+      return:
+        type:
+          - function

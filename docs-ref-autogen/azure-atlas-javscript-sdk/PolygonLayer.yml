@@ -1,0 +1,94 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-atlas-javscript-sdk.PolygonLayer
+    name: PolygonLayer
+    fullName: PolygonLayer
+    children:
+      - azure-atlas-javscript-sdk.PolygonLayer.clear
+      - azure-atlas-javscript-sdk.PolygonLayer.layers
+      - azure-atlas-javscript-sdk.PolygonLayer.name
+      - azure-atlas-javscript-sdk.PolygonLayer.constructor
+      - azure-atlas-javscript-sdk.PolygonLayer.push
+      - azure-atlas-javscript-sdk.PolygonLayer.sources
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: azure-atlas-javscript-sdk
+  - uid: azure-atlas-javscript-sdk.PolygonLayer.clear
+    name: clear
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function clear()
+      parameters: []
+  - uid: azure-atlas-javscript-sdk.PolygonLayer.layers
+    name: layers
+    fullName: layers
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: any layers
+      return:
+        type:
+          - any
+  - uid: azure-atlas-javscript-sdk.PolygonLayer.name
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string name
+      return:
+        type:
+          - string
+  - uid: azure-atlas-javscript-sdk.PolygonLayer.constructor
+    name: PolygonLayer
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new PolygonLayer(polygonLayerOptions: function)'
+      parameters:
+        - id: polygonLayerOptions
+          type:
+            - function
+          description: ''
+  - uid: azure-atlas-javscript-sdk.PolygonLayer.push
+    name: push
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function push(polygons: Array<Feature<Polygon>>)'
+      parameters:
+        - id: polygons
+          type:
+            - Array<@azure-atlas-javscript-sdk.Feature<Polygon>>
+          description: ''
+  - uid: azure-atlas-javscript-sdk.PolygonLayer.sources
+    name: sources
+    fullName: sources
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: any sources
+      return:
+        type:
+          - any

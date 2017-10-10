@@ -1,0 +1,81 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-atlas-javscript-sdk.MapEventData
+    name: MapEventData
+    fullName: MapEventData
+    children:
+      - azure-atlas-javscript-sdk.MapEventData.coordinate
+      - azure-atlas-javscript-sdk.MapEventData.features
+      - azure-atlas-javscript-sdk.MapEventData.originalEvent
+      - azure-atlas-javscript-sdk.MapEventData.position
+      - azure-atlas-javscript-sdk.MapEventData.type
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: azure-atlas-javscript-sdk
+  - uid: azure-atlas-javscript-sdk.MapEventData.coordinate
+    name: coordinate
+    fullName: coordinate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'number[] coordinate'
+      return:
+        type:
+          - 'number[]'
+  - uid: azure-atlas-javscript-sdk.MapEventData.features
+    name: features
+    fullName: features
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Array<Feature<Geometry>> features
+      return:
+        type:
+          - Array<@azure-atlas-javscript-sdk.Feature<Geometry>>
+  - uid: azure-atlas-javscript-sdk.MapEventData.originalEvent
+    name: originalEvent
+    fullName: originalEvent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Event originalEvent
+      return:
+        type:
+          - Event
+  - uid: azure-atlas-javscript-sdk.MapEventData.position
+    name: position
+    fullName: position
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Position position
+      return:
+        type:
+          - '@azure-atlas-javscript-sdk.Position'
+  - uid: azure-atlas-javscript-sdk.MapEventData.type
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string type
+      return:
+        type:
+          - string

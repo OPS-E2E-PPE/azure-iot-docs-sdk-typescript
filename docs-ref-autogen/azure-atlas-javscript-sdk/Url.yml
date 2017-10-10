@@ -1,0 +1,54 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-atlas-javscript-sdk.Url
+    name: Url
+    fullName: Url
+    children:
+      - azure-atlas-javscript-sdk.Url.get
+      - azure-atlas-javscript-sdk.Url.constructor
+      - azure-atlas-javscript-sdk.Url.url
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: azure-atlas-javscript-sdk
+  - uid: azure-atlas-javscript-sdk.Url.get
+    name: get
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function get()
+      parameters: []
+      return:
+        type:
+          - Promise<JSON>
+  - uid: azure-atlas-javscript-sdk.Url.constructor
+    name: Url
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new Url(options: UrlOptions)'
+      parameters:
+        - id: options
+          type:
+            - '@azure-atlas-javscript-sdk.UrlOptions'
+          description: ''
+  - uid: azure-atlas-javscript-sdk.Url.url
+    name: url
+    fullName: url
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string url
+      return:
+        type:
+          - string

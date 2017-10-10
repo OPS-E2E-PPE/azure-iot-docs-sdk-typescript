@@ -1,0 +1,97 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-atlas-javscript-sdk.CameraOptions
+    name: CameraOptions
+    fullName: CameraOptions
+    children:
+      - azure-atlas-javscript-sdk.CameraOptions.bearing
+      - azure-atlas-javscript-sdk.CameraOptions.center
+      - azure-atlas-javscript-sdk.CameraOptions.maxZoom
+      - azure-atlas-javscript-sdk.CameraOptions.minZoom
+      - azure-atlas-javscript-sdk.CameraOptions.pitch
+      - azure-atlas-javscript-sdk.CameraOptions.zoom
+    langs:
+      - typeScript
+    type: class
+    summary: The options for setting the map control's camera.
+    extends:
+      name: '@azure-atlas-javscript-sdk.Options'
+    package: azure-atlas-javscript-sdk
+  - uid: azure-atlas-javscript-sdk.CameraOptions.bearing
+    name: bearing
+    fullName: bearing
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The bearing of the camera.
+    syntax:
+      content: number bearing
+      return:
+        type:
+          - number
+  - uid: azure-atlas-javscript-sdk.CameraOptions.center
+    name: center
+    fullName: center
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The center of the camera.
+    syntax:
+      content: Position center
+      return:
+        type:
+          - '@azure-atlas-javscript-sdk.Position'
+  - uid: azure-atlas-javscript-sdk.CameraOptions.maxZoom
+    name: maxZoom
+    fullName: maxZoom
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The maximum possible zoom of the camera.
+    syntax:
+      content: number maxZoom
+      return:
+        type:
+          - number
+  - uid: azure-atlas-javscript-sdk.CameraOptions.minZoom
+    name: minZoom
+    fullName: minZoom
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The minimum possible zoom of the camera.
+    syntax:
+      content: number minZoom
+      return:
+        type:
+          - number
+  - uid: azure-atlas-javscript-sdk.CameraOptions.pitch
+    name: pitch
+    fullName: pitch
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The pitch of the camera.
+    syntax:
+      content: number pitch
+      return:
+        type:
+          - number
+  - uid: azure-atlas-javscript-sdk.CameraOptions.zoom
+    name: zoom
+    fullName: zoom
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The zoom of the camera.
+    syntax:
+      content: number zoom
+      return:
+        type:
+          - number

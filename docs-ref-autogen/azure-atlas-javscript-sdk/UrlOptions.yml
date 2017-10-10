@@ -1,0 +1,83 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-atlas-javscript-sdk.UrlOptions
+    name: UrlOptions
+    fullName: UrlOptions
+    children:
+      - azure-atlas-javscript-sdk.UrlOptions.domain
+      - azure-atlas-javscript-sdk.UrlOptions.path
+      - azure-atlas-javscript-sdk.UrlOptions.protocol
+      - azure-atlas-javscript-sdk.UrlOptions.queryParams
+      - azure-atlas-javscript-sdk.UrlOptions.subdomain
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@azure-atlas-javscript-sdk.Options'
+    package: azure-atlas-javscript-sdk
+  - uid: azure-atlas-javscript-sdk.UrlOptions.domain
+    name: domain
+    fullName: domain
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string domain
+      return:
+        type:
+          - string
+  - uid: azure-atlas-javscript-sdk.UrlOptions.path
+    name: path
+    fullName: path
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string path
+      return:
+        type:
+          - string
+  - uid: azure-atlas-javscript-sdk.UrlOptions.protocol
+    name: protocol
+    fullName: protocol
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: function protocol
+      return:
+        type:
+          - function
+  - uid: azure-atlas-javscript-sdk.UrlOptions.queryParams
+    name: queryParams
+    fullName: queryParams
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: any queryParams
+      return:
+        type:
+          - any
+  - uid: azure-atlas-javscript-sdk.UrlOptions.subdomain
+    name: subdomain
+    fullName: subdomain
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string subdomain
+      return:
+        type:
+          - string

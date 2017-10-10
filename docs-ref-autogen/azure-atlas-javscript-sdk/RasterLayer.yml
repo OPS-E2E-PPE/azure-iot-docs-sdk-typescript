@@ -1,0 +1,94 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-atlas-javscript-sdk.RasterLayer
+    name: RasterLayer
+    fullName: RasterLayer
+    children:
+      - azure-atlas-javscript-sdk.RasterLayer.clear
+      - azure-atlas-javscript-sdk.RasterLayer.layers
+      - azure-atlas-javscript-sdk.RasterLayer.name
+      - azure-atlas-javscript-sdk.RasterLayer.push
+      - azure-atlas-javscript-sdk.RasterLayer.constructor
+      - azure-atlas-javscript-sdk.RasterLayer.sources
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: azure-atlas-javscript-sdk
+  - uid: azure-atlas-javscript-sdk.RasterLayer.clear
+    name: clear
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function clear()
+      parameters: []
+  - uid: azure-atlas-javscript-sdk.RasterLayer.layers
+    name: layers
+    fullName: layers
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: any layers
+      return:
+        type:
+          - any
+  - uid: azure-atlas-javscript-sdk.RasterLayer.name
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string name
+      return:
+        type:
+          - string
+  - uid: azure-atlas-javscript-sdk.RasterLayer.push
+    name: push
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function push(tileSources: string[])'
+      parameters:
+        - id: tileSources
+          type:
+            - 'string[]'
+          description: ''
+  - uid: azure-atlas-javscript-sdk.RasterLayer.constructor
+    name: RasterLayer
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new RasterLayer(rasterLayerOptions: RasterLayerOptions)'
+      parameters:
+        - id: rasterLayerOptions
+          type:
+            - '@azure-atlas-javscript-sdk.RasterLayerOptions'
+          description: ''
+  - uid: azure-atlas-javscript-sdk.RasterLayer.sources
+    name: sources
+    fullName: sources
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: any sources
+      return:
+        type:
+          - any

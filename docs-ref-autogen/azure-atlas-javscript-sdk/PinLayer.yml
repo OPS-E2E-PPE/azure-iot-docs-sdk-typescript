@@ -1,0 +1,95 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-atlas-javscript-sdk.PinLayer
+    name: PinLayer
+    fullName: PinLayer
+    children:
+      - azure-atlas-javscript-sdk.PinLayer.clear
+      - azure-atlas-javscript-sdk.PinLayer.layers
+      - azure-atlas-javscript-sdk.PinLayer.name
+      - azure-atlas-javscript-sdk.PinLayer.constructor
+      - azure-atlas-javscript-sdk.PinLayer.push
+      - azure-atlas-javscript-sdk.PinLayer.sources
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: azure-atlas-javscript-sdk
+  - uid: azure-atlas-javscript-sdk.PinLayer.clear
+    name: clear
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function clear()
+      parameters: []
+  - uid: azure-atlas-javscript-sdk.PinLayer.layers
+    name: layers
+    fullName: layers
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: any layers
+      return:
+        type:
+          - any
+  - uid: azure-atlas-javscript-sdk.PinLayer.name
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string name
+      return:
+        type:
+          - string
+  - uid: azure-atlas-javscript-sdk.PinLayer.constructor
+    name: PinLayer
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new PinLayer(pinLayerOptions: function)'
+      parameters:
+        - id: pinLayerOptions
+          type:
+            - function
+          description: ''
+  - uid: azure-atlas-javscript-sdk.PinLayer.push
+    name: push
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function push(pins: Array<Feature<Point>>)'
+      parameters:
+        - id: pins
+          type:
+            - >-
+              Array<@azure-atlas-javscript-sdk.Feature<@azure-atlas-javscript-sdk.Point>>
+          description: ''
+  - uid: azure-atlas-javscript-sdk.PinLayer.sources
+    name: sources
+    fullName: sources
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: any sources
+      return:
+        type:
+          - any

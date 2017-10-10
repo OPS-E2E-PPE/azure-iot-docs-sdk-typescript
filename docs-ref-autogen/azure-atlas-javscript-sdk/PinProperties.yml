@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-atlas-javscript-sdk.PinProperties
+    name: PinProperties
+    fullName: PinProperties
+    children:
+      - azure-atlas-javscript-sdk.PinProperties.icon
+      - azure-atlas-javscript-sdk.PinProperties.title
+    langs:
+      - typeScript
+    type: interface
+    summary: Individual properties that can be specified for a point feature.
+    package: azure-atlas-javscript-sdk
+  - uid: azure-atlas-javscript-sdk.PinProperties.icon
+    name: icon
+    fullName: icon
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The icon to display for the point.
+    syntax:
+      content: function icon
+      return:
+        type:
+          - function
+  - uid: azure-atlas-javscript-sdk.PinProperties.title
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The title to display for the point.
+    syntax:
+      content: string title
+      return:
+        type:
+          - string

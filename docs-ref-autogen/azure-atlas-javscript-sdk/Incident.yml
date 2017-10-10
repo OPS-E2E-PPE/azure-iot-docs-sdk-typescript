@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-atlas-javscript-sdk.Incident
+    name: Incident
+    fullName: Incident
+    children:
+      - azure-atlas-javscript-sdk.Incident.constructor
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@azure-atlas-javscript-sdk.Feature<@azure-atlas-javscript-sdk.Point>'
+    package: azure-atlas-javscript-sdk
+  - uid: azure-atlas-javscript-sdk.Incident.constructor
+    name: Incident
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new Incident(data: any)'
+      parameters:
+        - id: data
+          type:
+            - any
+          description: ''

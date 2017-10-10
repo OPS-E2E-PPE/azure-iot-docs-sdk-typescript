@@ -1,0 +1,225 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-atlas-javscript-sdk.AzureLogoControl
+    name: AzureLogoControl
+    fullName: AzureLogoControl
+    children:
+      - azure-atlas-javscript-sdk.AzureLogoControl.fire
+      - azure-atlas-javscript-sdk.AzureLogoControl.getDefaultPosition
+      - azure-atlas-javscript-sdk.AzureLogoControl.listens
+      - azure-atlas-javscript-sdk.AzureLogoControl.off
+      - azure-atlas-javscript-sdk.AzureLogoControl.off_1
+      - azure-atlas-javscript-sdk.AzureLogoControl.on
+      - azure-atlas-javscript-sdk.AzureLogoControl.on_1
+      - azure-atlas-javscript-sdk.AzureLogoControl.onAdd
+      - azure-atlas-javscript-sdk.AzureLogoControl.once
+      - azure-atlas-javscript-sdk.AzureLogoControl.onRemove
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: azure-atlas-javscript-sdk
+  - uid: azure-atlas-javscript-sdk.AzureLogoControl.fire
+    name: fire
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function fire(type: string, data?: mapboxgl)'
+      parameters:
+        - id: type
+          type:
+            - string
+          description: ''
+        - id: data
+          type:
+            - mapboxgl
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+  - uid: azure-atlas-javscript-sdk.AzureLogoControl.getDefaultPosition
+    name: getDefaultPosition
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getDefaultPosition()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: azure-atlas-javscript-sdk.AzureLogoControl.listens
+    name: listens
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function listens(type: string)'
+      parameters:
+        - id: type
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: azure-atlas-javscript-sdk.AzureLogoControl.off
+    name: 'off'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function off(type?: string, listener?: Function)'
+      parameters:
+        - id: type
+          type:
+            - string
+          description: ''
+          optional: true
+        - id: listener
+          type:
+            - Function
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+  - uid: azure-atlas-javscript-sdk.AzureLogoControl.off_1
+    name: 'off'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function off(type?: string, layer?: string, listener?: Function)'
+      parameters:
+        - id: type
+          type:
+            - string
+          description: ''
+          optional: true
+        - id: layer
+          type:
+            - string
+          description: ''
+          optional: true
+        - id: listener
+          type:
+            - Function
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+  - uid: azure-atlas-javscript-sdk.AzureLogoControl.on
+    name: 'on'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(type: string, listener: Function)'
+      parameters:
+        - id: type
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - Function
+          description: ''
+      return:
+        type:
+          - this
+  - uid: azure-atlas-javscript-sdk.AzureLogoControl.on_1
+    name: 'on'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(type: string, layer: string, listener: Function)'
+      parameters:
+        - id: type
+          type:
+            - string
+          description: ''
+        - id: layer
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - Function
+          description: ''
+      return:
+        type:
+          - this
+  - uid: azure-atlas-javscript-sdk.AzureLogoControl.onAdd
+    name: onAdd
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function onAdd(map: Map)'
+      parameters:
+        - id: map
+          type:
+            - Map
+          description: ''
+      return:
+        type:
+          - HTMLElement
+  - uid: azure-atlas-javscript-sdk.AzureLogoControl.once
+    name: once
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(type: string, listener: Function)'
+      parameters:
+        - id: type
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - Function
+          description: ''
+      return:
+        type:
+          - this
+  - uid: azure-atlas-javscript-sdk.AzureLogoControl.onRemove
+    name: onRemove
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function onRemove(map: Map)'
+      parameters:
+        - id: map
+          type:
+            - Map
+          description: ''
+      return:
+        type:
+          - any

@@ -1,0 +1,240 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-atlas-javscript-sdk.CopyrightControl
+    name: CopyrightControl
+    fullName: CopyrightControl
+    children:
+      - azure-atlas-javscript-sdk.CopyrightControl.constructor
+      - azure-atlas-javscript-sdk.CopyrightControl.fire
+      - azure-atlas-javscript-sdk.CopyrightControl.getDefaultPosition
+      - azure-atlas-javscript-sdk.CopyrightControl.listens
+      - azure-atlas-javscript-sdk.CopyrightControl.off
+      - azure-atlas-javscript-sdk.CopyrightControl.off_1
+      - azure-atlas-javscript-sdk.CopyrightControl.on
+      - azure-atlas-javscript-sdk.CopyrightControl.on_1
+      - azure-atlas-javscript-sdk.CopyrightControl.onAdd
+      - azure-atlas-javscript-sdk.CopyrightControl.once
+      - azure-atlas-javscript-sdk.CopyrightControl.onRemove
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: azure-atlas-javscript-sdk
+  - uid: azure-atlas-javscript-sdk.CopyrightControl.constructor
+    name: CopyrightControl
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new CopyrightControl(copyrightMessage: string)'
+      parameters:
+        - id: copyrightMessage
+          type:
+            - string
+          description: ''
+  - uid: azure-atlas-javscript-sdk.CopyrightControl.fire
+    name: fire
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function fire(type: string, data?: mapboxgl)'
+      parameters:
+        - id: type
+          type:
+            - string
+          description: ''
+        - id: data
+          type:
+            - mapboxgl
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+  - uid: azure-atlas-javscript-sdk.CopyrightControl.getDefaultPosition
+    name: getDefaultPosition
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getDefaultPosition()
+      parameters: []
+      return:
+        type:
+          - string
+  - uid: azure-atlas-javscript-sdk.CopyrightControl.listens
+    name: listens
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function listens(type: string)'
+      parameters:
+        - id: type
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - boolean
+  - uid: azure-atlas-javscript-sdk.CopyrightControl.off
+    name: 'off'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function off(type?: string, listener?: Function)'
+      parameters:
+        - id: type
+          type:
+            - string
+          description: ''
+          optional: true
+        - id: listener
+          type:
+            - Function
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+  - uid: azure-atlas-javscript-sdk.CopyrightControl.off_1
+    name: 'off'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function off(type?: string, layer?: string, listener?: Function)'
+      parameters:
+        - id: type
+          type:
+            - string
+          description: ''
+          optional: true
+        - id: layer
+          type:
+            - string
+          description: ''
+          optional: true
+        - id: listener
+          type:
+            - Function
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+  - uid: azure-atlas-javscript-sdk.CopyrightControl.on
+    name: 'on'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(type: string, listener: Function)'
+      parameters:
+        - id: type
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - Function
+          description: ''
+      return:
+        type:
+          - this
+  - uid: azure-atlas-javscript-sdk.CopyrightControl.on_1
+    name: 'on'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(type: string, layer: string, listener: Function)'
+      parameters:
+        - id: type
+          type:
+            - string
+          description: ''
+        - id: layer
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - Function
+          description: ''
+      return:
+        type:
+          - this
+  - uid: azure-atlas-javscript-sdk.CopyrightControl.onAdd
+    name: onAdd
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function onAdd(map: Map)'
+      parameters:
+        - id: map
+          type:
+            - Map
+          description: ''
+      return:
+        type:
+          - HTMLElement
+  - uid: azure-atlas-javscript-sdk.CopyrightControl.once
+    name: once
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(type: string, listener: Function)'
+      parameters:
+        - id: type
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - Function
+          description: ''
+      return:
+        type:
+          - this
+  - uid: azure-atlas-javscript-sdk.CopyrightControl.onRemove
+    name: onRemove
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function onRemove(map: Map)'
+      parameters:
+        - id: map
+          type:
+            - Map
+          description: ''
+      return:
+        type:
+          - any

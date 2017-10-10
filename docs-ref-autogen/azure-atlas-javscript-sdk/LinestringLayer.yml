@@ -1,0 +1,94 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-atlas-javscript-sdk.LinestringLayer
+    name: LinestringLayer
+    fullName: LinestringLayer
+    children:
+      - azure-atlas-javscript-sdk.LinestringLayer.clear
+      - azure-atlas-javscript-sdk.LinestringLayer.layers
+      - azure-atlas-javscript-sdk.LinestringLayer.constructor
+      - azure-atlas-javscript-sdk.LinestringLayer.name
+      - azure-atlas-javscript-sdk.LinestringLayer.push
+      - azure-atlas-javscript-sdk.LinestringLayer.sources
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: azure-atlas-javscript-sdk
+  - uid: azure-atlas-javscript-sdk.LinestringLayer.clear
+    name: clear
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function clear()
+      parameters: []
+  - uid: azure-atlas-javscript-sdk.LinestringLayer.layers
+    name: layers
+    fullName: layers
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: any layers
+      return:
+        type:
+          - any
+  - uid: azure-atlas-javscript-sdk.LinestringLayer.constructor
+    name: LinestringLayer
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new LinestringLayer(linestringLayerOptions: function)'
+      parameters:
+        - id: linestringLayerOptions
+          type:
+            - function
+          description: ''
+  - uid: azure-atlas-javscript-sdk.LinestringLayer.name
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string name
+      return:
+        type:
+          - string
+  - uid: azure-atlas-javscript-sdk.LinestringLayer.push
+    name: push
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function push(linestrings: Array<Feature<LineString>>)'
+      parameters:
+        - id: linestrings
+          type:
+            - Array<@azure-atlas-javscript-sdk.Feature<LineString>>
+          description: ''
+  - uid: azure-atlas-javscript-sdk.LinestringLayer.sources
+    name: sources
+    fullName: sources
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: any sources
+      return:
+        type:
+          - any

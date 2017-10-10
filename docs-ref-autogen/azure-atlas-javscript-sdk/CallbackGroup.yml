@@ -1,0 +1,60 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-atlas-javscript-sdk.CallbackGroup
+    name: CallbackGroup
+    fullName: CallbackGroup
+    children:
+      - azure-atlas-javscript-sdk.CallbackGroup.constructor
+      - azure-atlas-javscript-sdk.CallbackGroup.modifiedCallback
+      - azure-atlas-javscript-sdk.CallbackGroup.userCallback
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: azure-atlas-javscript-sdk
+  - uid: azure-atlas-javscript-sdk.CallbackGroup.constructor
+    name: CallbackGroup
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new CallbackGroup(userCallback: (data: any) => void, modifiedCallback:
+        (data: any) => void)
+      parameters:
+        - id: userCallback
+          type:
+            - '(data: any) => void'
+          description: ''
+        - id: modifiedCallback
+          type:
+            - '(data: any) => void'
+          description: ''
+  - uid: azure-atlas-javscript-sdk.CallbackGroup.modifiedCallback
+    name: modifiedCallback
+    fullName: modifiedCallback
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(data: any) => void modifiedCallback'
+      return:
+        type:
+          - '(data: any) => void'
+  - uid: azure-atlas-javscript-sdk.CallbackGroup.userCallback
+    name: userCallback
+    fullName: userCallback
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(data: any) => void userCallback'
+      return:
+        type:
+          - '(data: any) => void'

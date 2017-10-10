@@ -1,0 +1,58 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-atlas-javscript-sdk.SearchService
+    name: SearchService
+    fullName: SearchService
+    children:
+      - azure-atlas-javscript-sdk.SearchService.request
+      - azure-atlas-javscript-sdk.SearchService.constructor
+      - azure-atlas-javscript-sdk.SearchService.serviceOptions
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: azure-atlas-javscript-sdk
+  - uid: azure-atlas-javscript-sdk.SearchService.request
+    name: request
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function request(options: SearchOptions)'
+      parameters:
+        - id: options
+          type:
+            - '@azure-atlas-javscript-sdk.SearchOptions'
+          description: ''
+      return:
+        type:
+          - Promise<JSON>
+  - uid: azure-atlas-javscript-sdk.SearchService.constructor
+    name: SearchService
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new SearchService(options: ServiceOptions)'
+      parameters:
+        - id: options
+          type:
+            - '@azure-atlas-javscript-sdk.ServiceOptions'
+          description: ''
+  - uid: azure-atlas-javscript-sdk.SearchService.serviceOptions
+    name: serviceOptions
+    fullName: serviceOptions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ServiceOptions serviceOptions
+      return:
+        type:
+          - '@azure-atlas-javscript-sdk.ServiceOptions'

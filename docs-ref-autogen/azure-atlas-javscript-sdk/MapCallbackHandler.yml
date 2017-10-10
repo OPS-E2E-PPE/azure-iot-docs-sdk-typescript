@@ -1,0 +1,64 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-atlas-javscript-sdk.MapCallbackHandler
+    name: MapCallbackHandler
+    fullName: MapCallbackHandler
+    children:
+      - azure-atlas-javscript-sdk.MapCallbackHandler.addCallback
+      - azure-atlas-javscript-sdk.MapCallbackHandler.getModifiedCallback
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: azure-atlas-javscript-sdk
+  - uid: azure-atlas-javscript-sdk.MapCallbackHandler.addCallback
+    name: addCallback
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function addCallback(eventType: string, layer: string, callback: (data:
+        any) => void)
+      parameters:
+        - id: eventType
+          type:
+            - string
+          description: ''
+        - id: layer
+          type:
+            - string
+          description: ''
+        - id: callback
+          type:
+            - '(data: any) => void'
+          description: ''
+  - uid: azure-atlas-javscript-sdk.MapCallbackHandler.getModifiedCallback
+    name: getModifiedCallback
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function getModifiedCallback(eventType: string, layer: string, callback:
+        (data: any) => void)
+      parameters:
+        - id: eventType
+          type:
+            - string
+          description: ''
+        - id: layer
+          type:
+            - string
+          description: ''
+        - id: callback
+          type:
+            - '(data: any) => void'
+          description: ''
+      return:
+        type:
+          - any

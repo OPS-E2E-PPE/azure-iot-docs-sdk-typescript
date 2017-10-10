@@ -1,0 +1,55 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-atlas-javscript-sdk.SearchOptions
+    name: SearchOptions
+    fullName: SearchOptions
+    children:
+      - azure-atlas-javscript-sdk.SearchOptions.params
+      - azure-atlas-javscript-sdk.SearchOptions.query
+      - azure-atlas-javscript-sdk.SearchOptions.version
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@azure-atlas-javscript-sdk.Options'
+    package: azure-atlas-javscript-sdk
+  - uid: azure-atlas-javscript-sdk.SearchOptions.params
+    name: params
+    fullName: params
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: any params
+      return:
+        type:
+          - any
+  - uid: azure-atlas-javscript-sdk.SearchOptions.query
+    name: query
+    fullName: query
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string query
+      return:
+        type:
+          - string
+  - uid: azure-atlas-javscript-sdk.SearchOptions.version
+    name: version
+    fullName: version
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string version
+      return:
+        type:
+          - string
