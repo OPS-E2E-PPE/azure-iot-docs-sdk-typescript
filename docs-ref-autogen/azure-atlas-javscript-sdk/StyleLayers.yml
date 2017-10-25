@@ -24,3 +24,6 @@ items:
           type:
             - function
           description: ''
+      return:
+        type:
+          - '@azure-atlas-javscript-sdk.Layer[]'

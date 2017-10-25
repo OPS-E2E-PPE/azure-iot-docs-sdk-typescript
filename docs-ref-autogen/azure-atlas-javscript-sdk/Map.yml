@@ -4,8 +4,9 @@ items:
     name: Map
     fullName: Map
     children:
-      - azure-atlas-javscript-sdk.Map.addEventListener
+      - azure-atlas-javscript-sdk.Map.addCircles
       - azure-atlas-javscript-sdk.Map.addEventListener_1
+      - azure-atlas-javscript-sdk.Map.addEventListener
       - azure-atlas-javscript-sdk.Map.addHtml
       - azure-atlas-javscript-sdk.Map.addLinestrings
       - azure-atlas-javscript-sdk.Map.addPins
@@ -35,30 +36,36 @@ items:
     type: class
     summary: ''
     package: azure-atlas-javscript-sdk
-  - uid: azure-atlas-javscript-sdk.Map.addEventListener
-    name: addEventListener
+  - uid: azure-atlas-javscript-sdk.Map.addCircles
+    name: addCircles
     children: []
     type: method
     langs:
       - typeScript
     summary: >-
-      Add an event listener to the map. If no layer is specified, the event
-      listener will be added to the map canvas
+      Add a collection of points to the map as circles. If the layer already
+      exists, any options previously specified by
 
-      container; otherwise, the event listener will be added to the specified
-      layer of the map.
+      the user will default to the previous values; otherwise, they will default
+      to the default values of
+
+      [[CircleLayerOptions]].
     syntax:
-      content: 'function addEventListener(type: string, callback: any)'
+      content: >-
+        function addCircles(circles: Array<Feature<Point>>, options?:
+        CircleLayerOptions)
       parameters:
-        - id: type
+        - id: circles
           type:
-            - string
-          description: The event listener type. @todo Need to specify these.
-        - id: callback
+            - >-
+              Array<@azure-atlas-javscript-sdk.Feature<@azure-atlas-javscript-sdk.Point>>
+          description: The circles to add.
+        - id: options
           type:
-            - any
+            - '@azure-atlas-javscript-sdk.CircleLayerOptions'
           description: |
-            The callback to fire when the event occurs.
+            The layer options for adding the circles to the map.
+          optional: true
   - uid: azure-atlas-javscript-sdk.Map.addEventListener_1
     name: addEventListener
     children: []
@@ -86,6 +93,30 @@ items:
           type:
             - any
           description: ''
+  - uid: azure-atlas-javscript-sdk.Map.addEventListener
+    name: addEventListener
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Add an event listener to the map. If no layer is specified, the event
+      listener will be added to the map canvas
+
+      container; otherwise, the event listener will be added to the specified
+      layer of the map.
+    syntax:
+      content: 'function addEventListener(type: string, callback: any)'
+      parameters:
+        - id: type
+          type:
+            - string
+          description: The event listener type. @todo Need to specify these.
+        - id: callback
+          type:
+            - any
+          description: |
+            The callback to fire when the event occurs.
   - uid: azure-atlas-javscript-sdk.Map.addHtml
     name: addHtml
     children: []
@@ -124,12 +155,14 @@ items:
       [[LinestringLayerOptions]].
     syntax:
       content: >-
-        function addLinestrings(linestrings: Array<Feature<LineString>>,
-        options?: LinestringLayerOptions)
+        function addLinestrings(linestrings: Array<Feature<LineString |
+        MultiLineString>>, options?: LinestringLayerOptions)
       parameters:
         - id: linestrings
           type:
-            - Array<@azure-atlas-javscript-sdk.Feature<LineString>>
+            - >-
+              Array<@azure-atlas-javscript-sdk.Feature<LineString |
+              MultiLineString>>
           description: The linestrings to add.
         - id: options
           type:
@@ -181,12 +214,12 @@ items:
       [[PolygonLayerOptions]].
     syntax:
       content: >-
-        function addPolygons(polygons: Array<Feature<Polygon>>, options?:
-        PolygonLayerOptions)
+        function addPolygons(polygons: Array<Feature<Polygon | MultiPolygon>>,
+        options?: PolygonLayerOptions)
       parameters:
         - id: polygons
           type:
-            - Array<@azure-atlas-javscript-sdk.Feature<Polygon>>
+            - Array<@azure-atlas-javscript-sdk.Feature<Polygon | MultiPolygon>>
           description: The polygons to add.
         - id: options
           type:
@@ -241,6 +274,9 @@ items:
     syntax:
       content: function getCamera()
       parameters: []
+      return:
+        type:
+          - function
   - uid: azure-atlas-javscript-sdk.Map.getCanvas
     name: getCanvas
     children: []
@@ -281,6 +317,9 @@ items:
     syntax:
       content: function getLayers()
       parameters: []
+      return:
+        type:
+          - 'string[]'
   - uid: azure-atlas-javscript-sdk.Map.getMapContainer
     name: getMapContainer
     children: []

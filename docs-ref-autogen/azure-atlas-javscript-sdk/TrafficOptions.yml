@@ -32,10 +32,10 @@ items:
 
       false to stop displaying the traffic flow.</p>
     syntax:
-      content: false flow
+      content: false |  |  |  flow
       return:
         type:
-          - 'false'
+          - 'false |  |  | '
   - uid: azure-atlas-javscript-sdk.TrafficOptions.incidents
     name: incidents
     fullName: incidents

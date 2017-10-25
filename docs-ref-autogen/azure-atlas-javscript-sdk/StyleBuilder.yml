@@ -43,6 +43,9 @@ items:
             - string
           description: ''
           optional: true
+      return:
+        type:
+          - Layer | undefined
   - uid: azure-atlas-javscript-sdk.StyleBuilder.getLayers
     name: getLayers
     children: []
@@ -53,6 +56,9 @@ items:
     syntax:
       content: function getLayers()
       parameters: []
+      return:
+        type:
+          - '@azure-atlas-javscript-sdk.Layer[]'
   - uid: azure-atlas-javscript-sdk.StyleBuilder.remove
     name: remove
     children: []

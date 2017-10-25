@@ -8,6 +8,7 @@ items:
       - azure-atlas-javscript-sdk.Layer.layers
       - azure-atlas-javscript-sdk.Layer.name
       - azure-atlas-javscript-sdk.Layer.push
+      - azure-atlas-javscript-sdk.Layer.sourceName
       - azure-atlas-javscript-sdk.Layer.sources
     langs:
       - typeScript
@@ -64,6 +65,19 @@ items:
           type:
             - any
           description: ''
+  - uid: azure-atlas-javscript-sdk.Layer.sourceName
+    name: sourceName
+    fullName: sourceName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string sourceName
+      return:
+        type:
+          - string
   - uid: azure-atlas-javscript-sdk.Layer.sources
     name: sources
     fullName: sources

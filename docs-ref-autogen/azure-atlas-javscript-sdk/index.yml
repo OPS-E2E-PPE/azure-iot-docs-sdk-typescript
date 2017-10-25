@@ -23,6 +23,7 @@ items:
       - azure-atlas-javscript-sdk.Popup
       - azure-atlas-javscript-sdk.AzureLogoControl
       - azure-atlas-javscript-sdk.CopyrightControl
+      - azure-atlas-javscript-sdk.CircleProperties
       - azure-atlas-javscript-sdk.LinestringProperties
       - azure-atlas-javscript-sdk.PinProperties
       - azure-atlas-javscript-sdk.PolygonProperties
@@ -36,6 +37,7 @@ items:
       - azure-atlas-javscript-sdk.AzureBaseLayer
       - azure-atlas-javscript-sdk.AzureLabelsLayer
       - azure-atlas-javscript-sdk.AzureTransitLayer
+      - azure-atlas-javscript-sdk.CircleLayer
       - azure-atlas-javscript-sdk.LinestringLayer
       - azure-atlas-javscript-sdk.PinLayer
       - azure-atlas-javscript-sdk.PolygonLayer
@@ -43,6 +45,7 @@ items:
       - azure-atlas-javscript-sdk.AnimationOptions
       - azure-atlas-javscript-sdk.CameraBoundsOptions
       - azure-atlas-javscript-sdk.CameraOptions
+      - azure-atlas-javscript-sdk.CircleLayerOptions
       - azure-atlas-javscript-sdk.LayerOptions
       - azure-atlas-javscript-sdk.LinestringLayerOptions
       - azure-atlas-javscript-sdk.MapEventData
@@ -57,19 +60,11 @@ items:
       - azure-atlas-javscript-sdk.StyleLayers
       - azure-atlas-javscript-sdk.CopyrightService
       - azure-atlas-javscript-sdk.IncidentService
-      - azure-atlas-javscript-sdk.ReverseGeocodeService
-      - azure-atlas-javscript-sdk.RouteService
-      - azure-atlas-javscript-sdk.SearchService
       - azure-atlas-javscript-sdk.Service
-      - azure-atlas-javscript-sdk.TimeZoneService
       - azure-atlas-javscript-sdk.CopyrightOptions
       - azure-atlas-javscript-sdk.IncidentOptions
       - azure-atlas-javscript-sdk.RequestOptions
-      - azure-atlas-javscript-sdk.ReverseGeocodeOptions
-      - azure-atlas-javscript-sdk.RouteOptions
-      - azure-atlas-javscript-sdk.SearchOptions
       - azure-atlas-javscript-sdk.ServiceOptions
-      - azure-atlas-javscript-sdk.TimeZoneOptions
     type: package
     langs:
       - typeScript
@@ -112,6 +107,8 @@ references:
     name: AzureLogoControl
   - uid: azure-atlas-javscript-sdk.CopyrightControl
     name: CopyrightControl
+  - uid: azure-atlas-javscript-sdk.CircleProperties
+    name: CircleProperties
   - uid: azure-atlas-javscript-sdk.LinestringProperties
     name: LinestringProperties
   - uid: azure-atlas-javscript-sdk.PinProperties
@@ -138,6 +135,8 @@ references:
     name: AzureLabelsLayer
   - uid: azure-atlas-javscript-sdk.AzureTransitLayer
     name: AzureTransitLayer
+  - uid: azure-atlas-javscript-sdk.CircleLayer
+    name: CircleLayer
   - uid: azure-atlas-javscript-sdk.LinestringLayer
     name: LinestringLayer
   - uid: azure-atlas-javscript-sdk.PinLayer
@@ -152,6 +151,8 @@ references:
     name: CameraBoundsOptions
   - uid: azure-atlas-javscript-sdk.CameraOptions
     name: CameraOptions
+  - uid: azure-atlas-javscript-sdk.CircleLayerOptions
+    name: CircleLayerOptions
   - uid: azure-atlas-javscript-sdk.LayerOptions
     name: LayerOptions
   - uid: azure-atlas-javscript-sdk.LinestringLayerOptions
@@ -180,29 +181,13 @@ references:
     name: CopyrightService
   - uid: azure-atlas-javscript-sdk.IncidentService
     name: IncidentService
-  - uid: azure-atlas-javscript-sdk.ReverseGeocodeService
-    name: ReverseGeocodeService
-  - uid: azure-atlas-javscript-sdk.RouteService
-    name: RouteService
-  - uid: azure-atlas-javscript-sdk.SearchService
-    name: SearchService
   - uid: azure-atlas-javscript-sdk.Service
     name: Service
-  - uid: azure-atlas-javscript-sdk.TimeZoneService
-    name: TimeZoneService
   - uid: azure-atlas-javscript-sdk.CopyrightOptions
     name: CopyrightOptions
   - uid: azure-atlas-javscript-sdk.IncidentOptions
     name: IncidentOptions
   - uid: azure-atlas-javscript-sdk.RequestOptions
     name: RequestOptions
-  - uid: azure-atlas-javscript-sdk.ReverseGeocodeOptions
-    name: ReverseGeocodeOptions
-  - uid: azure-atlas-javscript-sdk.RouteOptions
-    name: RouteOptions
-  - uid: azure-atlas-javscript-sdk.SearchOptions
-    name: SearchOptions
   - uid: azure-atlas-javscript-sdk.ServiceOptions
     name: ServiceOptions
-  - uid: azure-atlas-javscript-sdk.TimeZoneOptions
-    name: TimeZoneOptions

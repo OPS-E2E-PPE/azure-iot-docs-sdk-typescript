@@ -94,11 +94,11 @@ items:
       - typeScript
     summary: ''
     syntax:
-      content: 'function off(type?: string, listener?: Function)'
+      content: 'function off(type?: string | any, listener?: Function)'
       parameters:
         - id: type
           type:
-            - string
+            - string | any
           description: ''
           optional: true
         - id: listener
@@ -117,11 +117,11 @@ items:
       - typeScript
     summary: ''
     syntax:
-      content: 'function off(type?: string, layer?: string, listener?: Function)'
+      content: 'function off(type?: string | any, layer?: string, listener?: Function)'
       parameters:
         - id: type
           type:
-            - string
+            - string | any
           description: ''
           optional: true
         - id: layer

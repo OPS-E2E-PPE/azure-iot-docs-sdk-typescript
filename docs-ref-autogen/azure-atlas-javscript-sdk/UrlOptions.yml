@@ -5,6 +5,7 @@ items:
     fullName: UrlOptions
     children:
       - azure-atlas-javscript-sdk.UrlOptions.domain
+      - azure-atlas-javscript-sdk.UrlOptions.headers
       - azure-atlas-javscript-sdk.UrlOptions.path
       - azure-atlas-javscript-sdk.UrlOptions.protocol
       - azure-atlas-javscript-sdk.UrlOptions.queryParams
@@ -29,6 +30,19 @@ items:
       return:
         type:
           - string
+  - uid: azure-atlas-javscript-sdk.UrlOptions.headers
+    name: headers
+    fullName: headers
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '[key: string]: string headers'
+      return:
+        type:
+          - '[key: string]: string'
   - uid: azure-atlas-javscript-sdk.UrlOptions.path
     name: path
     fullName: path

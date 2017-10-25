@@ -5,8 +5,9 @@ items:
     fullName: Url
     children:
       - azure-atlas-javscript-sdk.Url.get
+      - azure-atlas-javscript-sdk.Url.options
+      - azure-atlas-javscript-sdk.Url.toString
       - azure-atlas-javscript-sdk.Url.constructor
-      - azure-atlas-javscript-sdk.Url.url
     langs:
       - typeScript
     type: class
@@ -25,6 +26,32 @@ items:
       return:
         type:
           - Promise<JSON>
+  - uid: azure-atlas-javscript-sdk.Url.options
+    name: options
+    fullName: options
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: UrlOptions options
+      return:
+        type:
+          - '@azure-atlas-javscript-sdk.UrlOptions'
+  - uid: azure-atlas-javscript-sdk.Url.toString
+    name: toString
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toString()
+      parameters: []
+      return:
+        type:
+          - string
   - uid: azure-atlas-javscript-sdk.Url.constructor
     name: Url
     children: []
@@ -39,16 +66,3 @@ items:
           type:
             - '@azure-atlas-javscript-sdk.UrlOptions'
           description: ''
-  - uid: azure-atlas-javscript-sdk.Url.url
-    name: url
-    fullName: url
-    children: []
-    langs:
-      - typeScript
-    type: property
-    summary: ''
-    syntax:
-      content: string url
-      return:
-        type:
-          - string

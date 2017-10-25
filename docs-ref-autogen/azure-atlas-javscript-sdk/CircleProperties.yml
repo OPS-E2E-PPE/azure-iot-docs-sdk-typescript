@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-atlas-javscript-sdk.CircleProperties
+    name: CircleProperties
+    fullName: CircleProperties
+    children:
+      - azure-atlas-javscript-sdk.CircleProperties.color
+      - azure-atlas-javscript-sdk.CircleProperties.outlineColor
+      - azure-atlas-javscript-sdk.CircleProperties.outlineWidth
+      - azure-atlas-javscript-sdk.CircleProperties.radius
+    langs:
+      - typeScript
+    type: interface
+    summary: Individual properties that can be specified for a circle feature.
+    package: azure-atlas-javscript-sdk
+  - uid: azure-atlas-javscript-sdk.CircleProperties.color
+    name: color
+    fullName: color
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The fill color of the circle.
+    syntax:
+      content: string color
+      return:
+        type:
+          - string
+  - uid: azure-atlas-javscript-sdk.CircleProperties.outlineColor
+    name: outlineColor
+    fullName: outlineColor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The outline color of the circle.
+    syntax:
+      content: string outlineColor
+      return:
+        type:
+          - string
+  - uid: azure-atlas-javscript-sdk.CircleProperties.outlineWidth
+    name: outlineWidth
+    fullName: outlineWidth
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The outline stroke width of the circle.
+    syntax:
+      content: number outlineWidth
+      return:
+        type:
+          - number
+  - uid: azure-atlas-javscript-sdk.CircleProperties.radius
+    name: radius
+    fullName: radius
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The radius in pixels of the circle.
+    syntax:
+      content: number radius
+      return:
+        type:
+          - number

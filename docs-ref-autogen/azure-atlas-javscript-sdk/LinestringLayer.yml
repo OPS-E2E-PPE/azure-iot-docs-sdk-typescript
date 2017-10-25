@@ -9,6 +9,7 @@ items:
       - azure-atlas-javscript-sdk.LinestringLayer.constructor
       - azure-atlas-javscript-sdk.LinestringLayer.name
       - azure-atlas-javscript-sdk.LinestringLayer.push
+      - azure-atlas-javscript-sdk.LinestringLayer.sourceName
       - azure-atlas-javscript-sdk.LinestringLayer.sources
     langs:
       - typeScript
@@ -73,12 +74,27 @@ items:
       - typeScript
     summary: ''
     syntax:
-      content: 'function push(linestrings: Array<Feature<LineString>>)'
+      content: 'function push(linestrings: Array<Feature<LineString | MultiLineString>>)'
       parameters:
         - id: linestrings
           type:
-            - Array<@azure-atlas-javscript-sdk.Feature<LineString>>
+            - >-
+              Array<@azure-atlas-javscript-sdk.Feature<LineString |
+              MultiLineString>>
           description: ''
+  - uid: azure-atlas-javscript-sdk.LinestringLayer.sourceName
+    name: sourceName
+    fullName: sourceName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string sourceName
+      return:
+        type:
+          - string
   - uid: azure-atlas-javscript-sdk.LinestringLayer.sources
     name: sources
     fullName: sources

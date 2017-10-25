@@ -9,6 +9,7 @@ items:
       - azure-atlas-javscript-sdk.PolygonLayer.name
       - azure-atlas-javscript-sdk.PolygonLayer.constructor
       - azure-atlas-javscript-sdk.PolygonLayer.push
+      - azure-atlas-javscript-sdk.PolygonLayer.sourceName
       - azure-atlas-javscript-sdk.PolygonLayer.sources
     langs:
       - typeScript
@@ -73,12 +74,25 @@ items:
       - typeScript
     summary: ''
     syntax:
-      content: 'function push(polygons: Array<Feature<Polygon>>)'
+      content: 'function push(polygons: Array<Feature<Polygon | MultiPolygon>>)'
       parameters:
         - id: polygons
           type:
-            - Array<@azure-atlas-javscript-sdk.Feature<Polygon>>
+            - Array<@azure-atlas-javscript-sdk.Feature<Polygon | MultiPolygon>>
           description: ''
+  - uid: azure-atlas-javscript-sdk.PolygonLayer.sourceName
+    name: sourceName
+    fullName: sourceName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string sourceName
+      return:
+        type:
+          - string
   - uid: azure-atlas-javscript-sdk.PolygonLayer.sources
     name: sources
     fullName: sources

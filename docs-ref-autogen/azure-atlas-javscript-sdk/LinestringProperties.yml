@@ -31,7 +31,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: The width of the linestring
+    summary: The width of the linestring.
     syntax:
       content: number width
       return:
