@@ -17,8 +17,7 @@ items:
       path: map/options/PolygonLayerOptions.ts
       startLine: 9
       remote:
-        path: >-
-          azure-iot-location-sdk/src/MapControl/JavascriptSDK/src\map/options/PolygonLayerOptions.ts
+        path: src/MapControl/JavascriptSDK/src\map/options/PolygonLayerOptions.ts
         repo: >-
           https://msazure.visualstudio.com/DefaultCollection/One/_git/Azure-IoT-LocationBasedServices
         branch: master

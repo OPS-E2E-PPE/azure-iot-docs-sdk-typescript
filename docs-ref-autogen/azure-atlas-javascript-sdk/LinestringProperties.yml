@@ -15,7 +15,7 @@ items:
       startLine: 6
       remote:
         path: >-
-          azure-iot-location-sdk/src/MapControl/JavascriptSDK/src\map/data_properties/LinestringProperties.ts
+          src/MapControl/JavascriptSDK/src\map/data_properties/LinestringProperties.ts
         repo: >-
           https://msazure.visualstudio.com/DefaultCollection/One/_git/Azure-IoT-LocationBasedServices
         branch: master

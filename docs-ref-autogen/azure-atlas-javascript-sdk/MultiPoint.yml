@@ -21,8 +21,7 @@ items:
       path: data/MultiPoint.ts
       startLine: 10
       remote:
-        path: >-
-          azure-iot-location-sdk/src/MapControl/JavascriptSDK/src\data/MultiPoint.ts
+        path: src/MapControl/JavascriptSDK/src\data/MultiPoint.ts
         repo: >-
           https://msazure.visualstudio.com/DefaultCollection/One/_git/Azure-IoT-LocationBasedServices
         branch: master

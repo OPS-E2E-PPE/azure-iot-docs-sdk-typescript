@@ -14,8 +14,7 @@ items:
       path: map/data_properties/PinProperties.ts
       startLine: 6
       remote:
-        path: >-
-          azure-iot-location-sdk/src/MapControl/JavascriptSDK/src\map/data_properties/PinProperties.ts
+        path: src/MapControl/JavascriptSDK/src\map/data_properties/PinProperties.ts
         repo: >-
           https://msazure.visualstudio.com/DefaultCollection/One/_git/Azure-IoT-LocationBasedServices
         branch: master

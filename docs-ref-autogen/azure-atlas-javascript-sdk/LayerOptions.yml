@@ -21,8 +21,7 @@ items:
       path: map/options/LayerOptions.ts
       startLine: 8
       remote:
-        path: >-
-          azure-iot-location-sdk/src/MapControl/JavascriptSDK/src\map/options/LayerOptions.ts
+        path: src/MapControl/JavascriptSDK/src\map/options/LayerOptions.ts
         repo: >-
           https://msazure.visualstudio.com/DefaultCollection/One/_git/Azure-IoT-LocationBasedServices
         branch: master

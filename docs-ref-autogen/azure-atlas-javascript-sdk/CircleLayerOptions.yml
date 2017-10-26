@@ -19,8 +19,7 @@ items:
       path: map/options/CircleLayerOptions.ts
       startLine: 9
       remote:
-        path: >-
-          azure-iot-location-sdk/src/MapControl/JavascriptSDK/src\map/options/CircleLayerOptions.ts
+        path: src/MapControl/JavascriptSDK/src\map/options/CircleLayerOptions.ts
         repo: >-
           https://msazure.visualstudio.com/DefaultCollection/One/_git/Azure-IoT-LocationBasedServices
         branch: master

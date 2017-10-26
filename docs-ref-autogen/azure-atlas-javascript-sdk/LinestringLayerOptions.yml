@@ -19,8 +19,7 @@ items:
       path: map/options/LinestringLayerOptions.ts
       startLine: 9
       remote:
-        path: >-
-          azure-iot-location-sdk/src/MapControl/JavascriptSDK/src\map/options/LinestringLayerOptions.ts
+        path: src/MapControl/JavascriptSDK/src\map/options/LinestringLayerOptions.ts
         repo: >-
           https://msazure.visualstudio.com/DefaultCollection/One/_git/Azure-IoT-LocationBasedServices
         branch: master

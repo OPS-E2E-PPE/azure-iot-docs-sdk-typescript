@@ -22,8 +22,7 @@ items:
       path: data/FeatureCollection.ts
       startLine: 11
       remote:
-        path: >-
-          azure-iot-location-sdk/src/MapControl/JavascriptSDK/src\data/FeatureCollection.ts
+        path: src/MapControl/JavascriptSDK/src\data/FeatureCollection.ts
         repo: >-
           https://msazure.visualstudio.com/DefaultCollection/One/_git/Azure-IoT-LocationBasedServices
         branch: master

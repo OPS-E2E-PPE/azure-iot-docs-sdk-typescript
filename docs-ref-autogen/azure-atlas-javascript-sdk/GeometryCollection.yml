@@ -25,8 +25,7 @@ items:
       path: data/GeometryCollection.ts
       startLine: 11
       remote:
-        path: >-
-          azure-iot-location-sdk/src/MapControl/JavascriptSDK/src\data/GeometryCollection.ts
+        path: src/MapControl/JavascriptSDK/src\data/GeometryCollection.ts
         repo: >-
           https://msazure.visualstudio.com/DefaultCollection/One/_git/Azure-IoT-LocationBasedServices
         branch: master

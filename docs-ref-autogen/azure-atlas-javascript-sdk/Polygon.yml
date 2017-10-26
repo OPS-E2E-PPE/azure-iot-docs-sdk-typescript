@@ -23,8 +23,7 @@ items:
       path: data/Polygon.ts
       startLine: 12
       remote:
-        path: >-
-          azure-iot-location-sdk/src/MapControl/JavascriptSDK/src\data/Polygon.ts
+        path: src/MapControl/JavascriptSDK/src\data/Polygon.ts
         repo: >-
           https://msazure.visualstudio.com/DefaultCollection/One/_git/Azure-IoT-LocationBasedServices
         branch: master

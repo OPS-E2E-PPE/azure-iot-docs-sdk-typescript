@@ -17,7 +17,7 @@ items:
       path: map/Popup.ts
       startLine: 11
       remote:
-        path: azure-iot-location-sdk/src/MapControl/JavascriptSDK/src\map/Popup.ts
+        path: src/MapControl/JavascriptSDK/src\map/Popup.ts
         repo: >-
           https://msazure.visualstudio.com/DefaultCollection/One/_git/Azure-IoT-LocationBasedServices
         branch: master
