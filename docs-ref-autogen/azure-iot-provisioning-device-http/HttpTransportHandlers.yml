@@ -19,7 +19,7 @@ items:
       path: http.ts
       startLine: 19
       remote:
-        path: provisioning/transport/http/src\http.ts
+        path: 0/provisioning/transport/http/src\http.ts
         repo: 'https://github.com/Azure/azure-iot-sdk-node.git'
         branch: master
     package: azure-iot-provisioning-device-http

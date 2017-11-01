@@ -20,9 +20,8 @@ items:
       path: map/options/CameraOptions.ts
       startLine: 9
       remote:
-        path: src/MapControl/JavascriptSDK/src\map/options/CameraOptions.ts
-        repo: >-
-          https://msazure.visualstudio.com/DefaultCollection/One/_git/Azure-IoT-LocationBasedServices
+        path: 1/src/MapControl/JavascriptSDK/src\map/options/CameraOptions.ts
+        repo: 'https://github.com/Azure/azure-iot-sdk-node.git'
         branch: master
     package: azure-atlas-javascript-sdk
   - uid: azure-atlas-javascript-sdk.CameraOptions.bearing

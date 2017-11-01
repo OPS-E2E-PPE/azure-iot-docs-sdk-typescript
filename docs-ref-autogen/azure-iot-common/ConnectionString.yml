@@ -21,7 +21,7 @@ items:
       path: connection_string.ts
       startLine: 13
       remote:
-        path: common/core/src\connection_string.ts
+        path: 0/common/core/src\connection_string.ts
         repo: 'https://github.com/Azure/azure-iot-sdk-node.git'
         branch: master
     package: azure-iot-common

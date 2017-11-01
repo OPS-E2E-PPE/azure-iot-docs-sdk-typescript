@@ -25,9 +25,8 @@ items:
       path: data/GeometryCollection.ts
       startLine: 11
       remote:
-        path: src/MapControl/JavascriptSDK/src\data/GeometryCollection.ts
-        repo: >-
-          https://msazure.visualstudio.com/DefaultCollection/One/_git/Azure-IoT-LocationBasedServices
+        path: 1/src/MapControl/JavascriptSDK/src\data/GeometryCollection.ts
+        repo: 'https://github.com/Azure/azure-iot-sdk-node.git'
         branch: master
     package: azure-atlas-javascript-sdk
   - uid: azure-atlas-javascript-sdk.GeometryCollection.geometries

@@ -39,7 +39,7 @@ items:
       path: device.ts
       startLine: 37
       remote:
-        path: service/src\device.ts
+        path: 0/service/src\device.ts
         repo: 'https://github.com/Azure/azure-iot-sdk-node.git'
         branch: master
     package: azure-iothub

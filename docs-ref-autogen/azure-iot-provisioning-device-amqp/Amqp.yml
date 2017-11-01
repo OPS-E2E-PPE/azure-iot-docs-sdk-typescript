@@ -14,7 +14,7 @@ items:
       path: amqp.ts
       startLine: 14
       remote:
-        path: provisioning/transport/amqp/src\amqp.ts
+        path: 0/provisioning/transport/amqp/src\amqp.ts
         repo: 'https://github.com/Azure/azure-iot-sdk-node.git'
         branch: master
     package: azure-iot-provisioning-device-amqp

@@ -21,9 +21,8 @@ items:
       path: data/MultiPolygon.ts
       startLine: 10
       remote:
-        path: src/MapControl/JavascriptSDK/src\data/MultiPolygon.ts
-        repo: >-
-          https://msazure.visualstudio.com/DefaultCollection/One/_git/Azure-IoT-LocationBasedServices
+        path: 1/src/MapControl/JavascriptSDK/src\data/MultiPolygon.ts
+        repo: 'https://github.com/Azure/azure-iot-sdk-node.git'
         branch: master
     package: azure-atlas-javascript-sdk
   - uid: azure-atlas-javascript-sdk.MultiPolygon.bbox

@@ -18,7 +18,7 @@ items:
       path: transport_state_machine.ts
       startLine: 21
       remote:
-        path: provisioning/device/src\transport_state_machine.ts
+        path: 0/provisioning/device/src\transport_state_machine.ts
         repo: 'https://github.com/Azure/azure-iot-sdk-node.git'
         branch: master
     package: azure-iot-provisioning-device

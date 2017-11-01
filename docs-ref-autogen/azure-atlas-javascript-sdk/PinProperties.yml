@@ -14,9 +14,9 @@ items:
       path: map/data_properties/PinProperties.ts
       startLine: 6
       remote:
-        path: src/MapControl/JavascriptSDK/src\map/data_properties/PinProperties.ts
-        repo: >-
-          https://msazure.visualstudio.com/DefaultCollection/One/_git/Azure-IoT-LocationBasedServices
+        path: >-
+          1/src/MapControl/JavascriptSDK/src\map/data_properties/PinProperties.ts
+        repo: 'https://github.com/Azure/azure-iot-sdk-node.git'
         branch: master
     package: azure-atlas-javascript-sdk
   - uid: azure-atlas-javascript-sdk.PinProperties.icon

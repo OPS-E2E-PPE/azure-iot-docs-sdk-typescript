@@ -14,7 +14,7 @@ items:
       path: mqtt.ts
       startLine: 14
       remote:
-        path: provisioning/transport/mqtt/src\mqtt.ts
+        path: 0/provisioning/transport/mqtt/src\mqtt.ts
         repo: 'https://github.com/Azure/azure-iot-sdk-node.git'
         branch: master
     package: azure-iot-provisioning-device-mqtt

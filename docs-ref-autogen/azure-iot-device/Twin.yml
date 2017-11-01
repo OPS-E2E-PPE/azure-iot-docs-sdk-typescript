@@ -38,7 +38,7 @@ items:
       path: twin.ts
       startLine: 28
       remote:
-        path: device/core/src\twin.ts
+        path: 0/device/core/src\twin.ts
         repo: 'https://github.com/Azure/azure-iot-sdk-node.git'
         branch: master
     package: azure-iot-device

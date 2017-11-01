@@ -15,9 +15,8 @@ items:
       startLine: 6
       remote:
         path: >-
-          src/MapControl/JavascriptSDK/src\map/data_properties/PolygonProperties.ts
-        repo: >-
-          https://msazure.visualstudio.com/DefaultCollection/One/_git/Azure-IoT-LocationBasedServices
+          1/src/MapControl/JavascriptSDK/src\map/data_properties/PolygonProperties.ts
+        repo: 'https://github.com/Azure/azure-iot-sdk-node.git'
         branch: master
     package: azure-atlas-javascript-sdk
   - uid: azure-atlas-javascript-sdk.PolygonProperties.color

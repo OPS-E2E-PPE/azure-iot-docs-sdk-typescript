@@ -22,7 +22,7 @@ items:
       path: amqp_ws.ts
       startLine: 19
       remote:
-        path: service/src\amqp_ws.ts
+        path: 0/service/src\amqp_ws.ts
         repo: 'https://github.com/Azure/azure-iot-sdk-node.git'
         branch: master
     package: azure-iothub
