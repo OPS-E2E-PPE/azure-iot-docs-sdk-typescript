@@ -158,11 +158,6 @@
         - uid: azure-iot-mqtt-base.MqttBase.TransportConfig
           name: TransportConfig
           items: []
-    - name: MqttBase
-      items:
-        - uid: azure-iot-mqtt-base.MqttBase.MqttBase.TransportConfig
-          name: TransportConfig
-          items: []
 - uid: azure-iot-device
   name: azure-iot-device
   items:
@@ -188,14 +183,6 @@
           items: []
         - uid: azure-iot-device.Global
           name: Global
-          items: []
-    - name: Client
-      items:
-        - uid: azure-iot-device.Client.Client.BlobUpload
-          name: BlobUpload
-          items: []
-        - uid: azure-iot-device.Client.Client.Transport
-          name: Transport
           items: []
 - uid: azure-iot-device-amqp
   name: azure-iot-device-amqp
@@ -336,33 +323,6 @@
         - uid: azure-iot-provisioning-service.QuerySpecification
           name: QuerySpecification
           items: []
-- uid: azure-iot-provisioning-device-amqp
-  name: azure-iot-provisioning-device-amqp
-  items:
-    - name: Global
-      items:
-        - uid: azure-iot-provisioning-device-amqp.Amqp
-          name: Amqp
-          items: []
-- uid: azure-iot-provisioning-device-http
-  name: azure-iot-provisioning-device-http
-  items:
-    - name: Global
-      items:
-        - uid: azure-iot-provisioning-device-http.HttpPollingHandlers
-          name: HttpPollingHandlers
-          items: []
-        - uid: azure-iot-provisioning-device-http.Http
-          name: Http
-          items: []
-- uid: azure-iot-provisioning-device-mqtt
-  name: azure-iot-provisioning-device-mqtt
-  items:
-    - name: Global
-      items:
-        - uid: azure-iot-provisioning-device-mqtt.Mqtt
-          name: Mqtt
-          items: []
 - uid: azure-iot-security-tpm
   name: azure-iot-security-tpm
   items:
@@ -446,17 +406,6 @@
           items: []
         - uid: azure-iothub.Global
           name: Global
-          items: []
-    - name: Client
-      items:
-        - uid: azure-iothub.Client.Client.ServiceReceiver
-          name: ServiceReceiver
-          items: []
-        - uid: azure-iothub.Client.Client.Transport
-          name: Transport
-          items: []
-        - uid: azure-iothub.Client.Client.TransportConfigOptions
-          name: TransportConfigOptions
           items: []
 - uid: location-based-services-javascript
   name: location-based-services-javascript
