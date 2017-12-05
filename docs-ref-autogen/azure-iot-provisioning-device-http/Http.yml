@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-iot-provisioning-device-http.Http
+    name: Http
+    fullName: Http
+    children:
+      - azure-iot-provisioning-device-http.Http.constructor
+    langs:
+      - typeScript
+    type: class
+    summary: Transport object for Azure IoT provisioning HTTP protocol
+    extends:
+      name: '@azure-iot-provisioning-device-http.Http'
+    source:
+      path: http_transport.ts
+      startLine: 15
+      remote:
+        path: provisioning/transport/http/src\http_transport.ts
+        repo: 'https://github.com/Azure/azure-iot-sdk-node.git'
+        branch: master
+    package: azure-iot-provisioning-device-http
+    module: Global
+  - uid: azure-iot-provisioning-device-http.Http.constructor
+    name: Http
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: Create a new HTTP transport object
+    syntax:
+      content: 'new Http(idScope: number, httpBase?: Base)'
+      parameters:
+        - id: idScope
+          type:
+            - number
+          description: ID Scope to use when communicating with the provisionin service
+        - id: httpBase
+          type:
+            - Base
+          description: |
+            base object for testing
+          optional: true
+    module: Global

@@ -323,6 +323,33 @@
         - uid: azure-iot-provisioning-service.QuerySpecification
           name: QuerySpecification
           items: []
+- uid: azure-iot-provisioning-device-amqp
+  name: azure-iot-provisioning-device-amqp
+  items:
+    - name: Global
+      items:
+        - uid: azure-iot-provisioning-device-amqp.Amqp
+          name: Amqp
+          items: []
+- uid: azure-iot-provisioning-device-http
+  name: azure-iot-provisioning-device-http
+  items:
+    - name: Global
+      items:
+        - uid: azure-iot-provisioning-device-http.HttpPollingHandlers
+          name: HttpPollingHandlers
+          items: []
+        - uid: azure-iot-provisioning-device-http.Http
+          name: Http
+          items: []
+- uid: azure-iot-provisioning-device-mqtt
+  name: azure-iot-provisioning-device-mqtt
+  items:
+    - name: Global
+      items:
+        - uid: azure-iot-provisioning-device-mqtt.Mqtt
+          name: Mqtt
+          items: []
 - uid: azure-iot-security-tpm
   name: azure-iot-security-tpm
   items:
