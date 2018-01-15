@@ -13,6 +13,22 @@ items:
       - azure-iot-device.DeviceMethodRequest
       - azure-iot-device.DeviceMethodResponse
       - azure-iot-device.Twin
+      - uid: msteams-client.microsoftTeams.microsoftTeams.settings.getSettings
+        name: getSettings
+        children: []
+        type: function
+        langs:
+          - typeScript
+        summary: Gets the settings for the current instance.
+        syntax:
+          content: 'function getSettings(callback: (instanceSettings: Settings) => void)'
+          parameters:
+            - id: callback
+              type:
+                - '(instanceSettings: Settings) => void'
+              description: |
+                The callback to invoke when the <xref:Settings> object is retrieved.
+        module: microsoftTeams.settings
     type: package
     langs:
       - typeScript
