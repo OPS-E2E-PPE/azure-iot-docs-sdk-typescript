@@ -21,7 +21,7 @@ items:
   - uid: msteams-client.microsoftTeams.microsoftTeams.settings.getSettings
     name: getSettings
     children: []
-    type: function
+    type: Package-wide function
     langs:
       - typeScript
     summary: Gets the settings for the current instance.
